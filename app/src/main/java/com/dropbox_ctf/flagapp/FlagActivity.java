@@ -22,7 +22,7 @@ public class FlagActivity extends AppCompatActivity {
 
     public void onClickTest(View v) {
         Log.i(TAG, "Test: " + mFlagEntryView.getText());
-        if (mFlagEntryView.getText().toString().equals(getString(R.string.flag_value))) {
+        if (mFlagEntryView.getText().toString().equals("insert_flag_here")) {
             mFlagResultView.setText(R.string.flag_result_yes);
         } else {
             mFlagResultView.setText(R.string.flag_result_no);
