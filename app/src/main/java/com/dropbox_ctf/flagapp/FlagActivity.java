@@ -2,7 +2,6 @@ package com.dropbox_ctf.flagapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -21,7 +20,6 @@ public class FlagActivity extends AppCompatActivity {
     }
 
     public void onClickTest(View v) {
-        Log.i(TAG, "Test: " + mFlagEntryView.getText());
         if (mFlagEntryView.getText().toString().equals("insert_flag_here")) {
             mFlagResultView.setText(R.string.flag_result_yes);
         } else {
