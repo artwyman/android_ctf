@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flag App</string>
+    <string name="flag_prompt">Guess the flag!</string>
+    <string name="flag_result_none">No guess yet</string>
+    <string name="flag_result_yes">That\'s it!</string>
+    <string name="flag_result_no">Nope, that\'s not it.</string>
+    <string name="flag_test">Test</string>
+    <string name="flag_value">insert_flag_here</string>
+</resources>
